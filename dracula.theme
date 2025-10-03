@@ -1,0 +1,134 @@
+name "Dracula"
+
+base {
+    appearance "dark"
+    background #282a36
+    separator #44475a
+    text #f8f8f2
+}
+
+actionBar {
+    separator #44475a
+
+    button {
+        background #21222c
+        hotkey #8be9fd
+        text #6272a4
+    }
+}
+
+asyncProgressBar {
+    border #6272a4
+    progress #bd93f9
+    itemProgress #50fa7b
+}
+
+breadcrumbs {
+    color1 #21222c
+    color2 #2b2d3a
+    color3 #343746
+    separator #6272a4
+    text #f8f8f2
+}
+
+files {
+    background {
+        alternate #21222c
+        current #6272a4
+        currentSelected #6272a4
+        selected #44475a
+    }
+
+    dragDropSelection {
+        color #f8f8f2
+        width 1
+    }
+
+    text {
+        current #f8f8f2
+        currentSelected #f8f8f2
+        hidden #6272a4
+        matched #8be9fd
+        selected #f8f8f2
+
+        highlighting1 #8be9fd
+        highlighting2 #50fa7b
+        highlighting3 #ff79c6
+        highlighting4 #bd93f9
+    }
+}
+
+searchBar {
+    query {
+        border #6272a4
+        placeholder #66f8f8f2
+    }
+
+    results {
+        highlighting #ffffff
+        selection #44475a
+        subtitle #6272a4
+    }
+
+    rowSeparator {
+        color #44475a
+        show true
+    }
+}
+
+statusBar {
+    background #21222c
+    border #44475a
+    text #f8f8f2
+    quickSelectNoResultsHighlighting #ff5555
+}
+
+tableHeader {
+    separator #44475a
+    text #f8f8f2
+
+    pressed {
+        background #44475a
+    }
+}
+
+tabs {
+    active {
+        text #f8f8f2
+    }
+
+    inactive {
+        background #21222c
+        text #6272a4
+    }
+}
+
+terminal {
+    caret {
+        background #f8f8f2
+        text #282a36
+    }
+}
+
+textEditor {
+    error #ff5555
+    warning #f1fa8c
+    keyword #ff79c6
+    comment #6272a4
+    identifier #f8f8f2
+
+    literal {
+        string #f1fa8c
+        number #bd93f9
+        color #8be9fd
+    }
+
+    gutter {
+        background #21222c
+        text #99f8f8f2
+    }
+}
+
+titleBar {
+    text #f8f8f2
+}
